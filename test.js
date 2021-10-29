@@ -33,7 +33,7 @@ const sortedFunc = (arr, assert) => {
 
   var resultObject = {};
 
-  // Функция, которая создает свойства объекта и массивы, как ключ.
+  // Функция, которая создает свойства объекта и массивы, как значение.
   const pushProperty = (object, type, value) => {
     object[type]
       ? (object[type] = [...object[type], value])
