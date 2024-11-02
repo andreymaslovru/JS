@@ -1,0 +1,38 @@
+.container {
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--antd-color-fill-content);
+  cursor: pointer;
+}
+
+.next {
+  border: 1px solid var(--antd-color-primary);
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  border: 1px solid white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.organizer {
+  display: flex;
+  gap: 6px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}

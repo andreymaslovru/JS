@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--antd-color-fill-content);
+  border-radius: 4px;
+  flex-basis: 100%;
+
+  @media (max-width: 800px) {
+    height: 100vh;
+  }
+}
+
+.emoji {
+  transition: all 4s easy-out;
+  position: absolute;
+  right: 0px;
+  bottom: 70px;
+  z-index: 99999999;
+
+  @media (max-width: 800px) {
+    right: 0px;
+  }
+}

@@ -1,0 +1,36 @@
+.statusContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.status {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--antd-color-primary);
+}
+
+.status:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  scale: 1.2;
+  border-radius: 50%;
+  background-color: var(--antd-color-primary);
+  animation: pulse 2s infinite ease-in;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}

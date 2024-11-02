@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--antd-color-bg-content);
+  gap: 10px;
+  border-radius: 0 8px 8px 0;
+  padding: 4px 12px;
+  min-height: 58px;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  border: 1px solid white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.wrapperContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 4px;
+}
+
+.headerMessage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerMessage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.isNotRead {
+  background-color: var(--antd-color-bg-layout);
+}
+
+.innerMessage {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  max-width: 90%;
+}
+
+.threedots {
+  width: 240px;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  color: var(--antd-color-text-base);
+  font-size: 12px;
+}

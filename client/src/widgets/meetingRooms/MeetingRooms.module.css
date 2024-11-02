@@ -1,0 +1,9 @@
+.container {
+  padding: 8px;
+  min-width: 300px;
+}
+
+.list {
+  overflow: scroll;
+  max-height: calc(100vh - 88px);
+}

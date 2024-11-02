@@ -1,0 +1,23 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    width: 320px;
+    border-right: 1px solid var(--antd-color-border);
+    resize: horizontal;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 100vh;
+  
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+  
+  .viewWrapper {
+      padding: 14px 0px 0px 0px;
+      background-color: var(--antd-color-bg-layout);
+      z-index: 3;
+      position: relative;
+      height: 100%;
+  }

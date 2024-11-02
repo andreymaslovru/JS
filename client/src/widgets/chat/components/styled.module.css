@@ -1,0 +1,43 @@
+.containerMessage {
+  background-color: var(--antd-color-bg-layout);
+  border-radius: 12px 12px 2px 12px;
+  color: var(--antd-color-text-base);
+  font-size: 14px;
+  max-width: 60%;
+  font-weight: 300;
+  padding: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 60px;
+  border-bottom: 1px solid var(--antd-color-border);
+  cursor: pointer;
+}
+
+.openReactions {
+  background-color: red;
+}
+
+.reaction {
+  padding: 2px 8px;
+  border: .5px solid var(--antd-color-border);
+  background-color: var(--antd-color-primary);
+  border-radius: 24px;
+}
+
+.reactionAdding:hover {
+  border-radius: 50%;
+  background-color: var(--antd-color-border);
+}
+
+.itemContextMenu {
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.itemContextMenu:hover {
+  background-color: var(--antd-color-border);
+}

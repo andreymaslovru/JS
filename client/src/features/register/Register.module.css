@@ -1,0 +1,67 @@
+.switch {
+    position: absolute;
+    bottom: 24px;
+  }
+
+.containerForm {
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+.wrapperBlockForm {
+  @media (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+
+.wrapperBlockFormItem {
+  width: 100%;
+}
+
+.form {
+  @media (max-width: 480px) {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0 32px;
+  }
+}
+
+.btn {
+  @media (max-width: 480px) {
+    position: fixed;
+    bottom: 12px;
+    right: 32px;
+    left: 32px;
+  }
+}
+
+.footerContainer {
+  width: '100%';
+  display: flex;
+  justify-content: flex-end;
+  gap: 12;
+  margin-top: 12px;
+
+  @media (max-width: 480px) {
+    justify-content: center;
+  }
+}
+
+.steps {
+  margin-bottom: 32px;
+  max-width: 60%;
+
+  @media (max-width: 480px) {
+    max-width: 100%;
+    padding: 0 32px;
+  }
+}

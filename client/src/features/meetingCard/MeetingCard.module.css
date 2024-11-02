@@ -1,0 +1,27 @@
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  border: 1px solid white;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.organizer {
+  display: flex;
+  gap: 12px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}

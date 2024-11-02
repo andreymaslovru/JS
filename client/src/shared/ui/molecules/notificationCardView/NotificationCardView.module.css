@@ -1,0 +1,21 @@
+.container {
+  border-radius: 4px;
+  background-color: var(--antd-color-bg-layout);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #9ba2ae;
+  padding: 10px 16px;
+}
+
+.active {
+  background-color: var(--antd-color-bg-content);
+  border: 1px solid var(--antd-color-primary);
+  color: white;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

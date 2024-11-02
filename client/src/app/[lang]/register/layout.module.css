@@ -1,0 +1,13 @@
+.main {
+  min-height: 100vh;
+  background: url("/pattern.svg") 0 0/48px 48px repeat;
+  background-color: var(--antd-color-bg-base);
+  padding: 48px;
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 480px) {
+    padding: 0;
+  }
+}
+

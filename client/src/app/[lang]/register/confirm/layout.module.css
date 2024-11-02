@@ -1,0 +1,6 @@
+.main {
+  height: 100vh;
+  background: url("/pattern.svg") 0 0/48px 48px repeat;
+  background-color: var(--antd-color-bg-base);
+}
+

@@ -1,0 +1,49 @@
+.container {
+  padding: 8px;
+  background-color: var(--antd-color-bg-layout);
+  z-index: 3;
+  position: relative;
+}
+
+.list {
+  overflow-y: scroll;
+  max-height: calc(100vh - 142px);
+  transition: all .3s ease-in-out;
+}
+
+.move {
+  transform: translate(0, 46px);
+}
+
+.focus {
+  color: var(--antd-color-text);
+  padding: 6px 0px;
+  border-radius: 8px;
+  position: absolute;
+  right: 12px;
+  left: 8px;
+}
+
+.focus_wrapper_content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bg_focus {
+  /* background-color: rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  transition: background-color 100ms linear; */
+}
+
+.mapper {
+  overflow: auto;
+  height: '100%';
+  max-height: calc(100vh - 136px);
+  background: inherit;
+}

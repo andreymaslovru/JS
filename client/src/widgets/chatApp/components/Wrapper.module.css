@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--antd-color-fill-content);
+    height: 100vh;
+    width: 100%;
+
+    gap: 24px;
+
+    @media (max-width: 1200px) {
+        gap: 0px;
+    }
+}
